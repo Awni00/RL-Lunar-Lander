@@ -7,7 +7,7 @@ The design of the reinforcement system is in `RL_system.py`, and training is don
 This project trains a reinforcement learning agent to successfully land a 'lunar lander' without crashing. It uses a neural network as a function approximator to the action-values and selects actions according to a softmax policy. Training is done using Expected SARSA with the Adam optimizer. Experience replay is used to improve sample efficiency.
 
 <br>
-<center><img src="figs/env_episodes.gif" alt="RL agent in action" width="500"/></center>
+<center><img src="figs/env_run.gif" alt="RL agent in action" width="500"/></center>
 
 
 The above GIF is a recording from `RL_system_training.ipynb` of the RL agent running in the Lunar Lander Environment. It's able to reach it's goal, but can probably be improved if trained for longer!
